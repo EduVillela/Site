@@ -1,0 +1,73 @@
+/* TÍTULOS */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+    color: #222;
+    margin: 1.5rem 0 1rem 0;
+}
+
+h1 {
+    font-size: 3.5rem;
+    color: #140d45;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 2rem;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 1.8rem;
+    font-style: italic;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 0.7rem;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+h6 {
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.7);
+    font-style: italic;
+    font-weight: 500;
+}
+
+
+/* PARÁGRAFOS */
+
+p{
+    font-weight: 500;
+}
+
+
+/* LINKS */
+
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: opacity 0.2s ease, text-shadow 0.3s ease;
+}
+
+a:visited {
+    color: inherit;
+}
+
+a:hover{
+    opacity: 0.75;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+a:active {
+    color: #000000;
+    opacity: 1;
+}

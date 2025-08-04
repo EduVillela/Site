@@ -1,0 +1,164 @@
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    max-width: 70rem;
+    background-color: #8d8d8d;
+    height: 100%;
+    padding: 0 5rem 0 2rem;
+}
+
+.banner-background {
+    height: 20vh;
+    background-color: #555;
+    color: rgba(255, 255, 255, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h1, .banner h6{
+        margin: 0;
+}
+
+.banner h6 {
+    color: rgba(255, 255, 255, 0.75);
+    letter-spacing: 0.25rem;
+    text-align: right;
+}
+
+.banner-list {
+    text-align: right;
+
+}
+
+.nav-container{
+    background-color: rgb(180, 180, 180);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.1rem 2rem;
+    max-width: 70rem;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar li {
+    display: flex;
+    margin: 0.3rem;
+    padding: 0.2rem 1rem;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    justify-content: center;
+    transition: opacity 0.2s ease, text-shadow 0.3s ease;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.75);
+}
+
+.navbar li:hover {
+    opacity: 0.75;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.navbar a {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .banner-background {
+        height: 30vh;
+    }
+
+    .banner h6 {
+        text-align: left;
+    }
+
+    .banner-list {
+        display: none;
+    }
+
+    .mobile-menu {
+        color: rgba(255, 255, 255, 0.7);
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 0rem;
+        right: 0;
+        background-color: #000000da;
+        width: 18rem;
+        padding: 1.5rem;
+        padding-top: 4rem;
+    }
+    
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        flex-grow: 0;
+        width: 100%;
+    }
+
+    .mobile-menu li {
+        /* margin-bottom: 0.75rem; */
+        display: flex;
+        flex-grow: 1;
+        flex: 1;
+        width: 100%;
+        margin: 0.4rem 0;
+        background-color: rgba(0, 0, 0, 0);
+        border-radius: 0px;
+        box-shadow: 0px 2px 0px rgba(255, 255, 255, 0.3);
+    }
+
+    .mobile-menu li a {
+        flex: 1;
+        text-align: left;
+    }
+
+    .hamburger {
+        display: block;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        font-size: 30px;
+        color: white;
+        z-index: 1000;
+        justify-content: left;
+    }
+
+}
+
+
+
+
+
+
+

@@ -1,0 +1,76 @@
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #333;
+    color: #fff;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 0 1rem;
+    text-align: center;
+}
+
+.footer-column h3 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column li {
+    margin: 0.5rem 0;
+}
+
+.footer-column a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
+}
+
+.footer-copyright {
+    text-align: center;
+    width: 100%;
+    padding: 1rem 0;
+    background-color: #222;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+@media screen and (max-width: 600px) {
+
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .footer-column {
+        flex: 1;
+        margin: 1rem 1rem;
+        text-align: center;
+    }
+
+}
+
+/* Mantém o footer na parte de baixo da tela */
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+main {
+    flex: 1;
+}
