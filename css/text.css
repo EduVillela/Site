@@ -1,15 +1,12 @@
 /* TÍTULOS */
-
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Arial', sans-serif;
     font-weight: 700;
-    color: #222;
     margin: 1.5rem 0 1rem 0;
 }
 
 h1 {
     font-size: 3.5rem;
-    color: #140d45;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     font-weight: 500;
 }
@@ -32,26 +29,22 @@ h4 {
 
 h5 {
     font-size: 0.7rem;
-    color: rgba(0, 0, 0, 0.7);
 }
 
 h6 {
     font-size: 0.8rem;
-    color: rgba(0, 0, 0, 0.7);
     font-style: italic;
     font-weight: 500;
 }
 
 
 /* PARÁGRAFOS */
-
 p{
     font-weight: 500;
 }
 
 
 /* LINKS */
-
 a {
     color: inherit;
     text-decoration: none;
@@ -64,10 +57,9 @@ a:visited {
 
 a:hover{
     opacity: 0.75;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
 }
 
 a:active {
-    color: #000000;
     opacity: 1;
 }

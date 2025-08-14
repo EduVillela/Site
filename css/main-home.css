@@ -1,5 +1,41 @@
-section{
-    min-height: 15rem;
-    background-color: rgba(90, 165, 230, 0.427);
+main{
     padding: 1rem;
+    /* background-color: #d1aa91; */
+    background: linear-gradient(to bottom,  #d1aa91, #8ea9b0);
+    z-index: -1;
+
+}
+
+section{
+    box-shadow: 0px 0px 5px black;
+    min-height: 15rem;
+    height: auto;
+    padding: 1rem;
+    margin: 3rem;
+    /* overflow: auto; */
+}
+
+section:nth-child(odd){
+    background-color: rgb(225, 225, 225);
+}
+
+section:nth-child(even) {
+    background-color: rgb(180, 180, 180);
+
+  }
+
+
+@media screen and (min-width: 768px) {
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between
+      }
+      
+      main section {
+        margin: 2.5rem;
+        flex: 0 0 calc(50% - 5rem);
+        background-color: lightgray;
+      }
+
 }
