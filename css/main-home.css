@@ -1,41 +1,94 @@
 main{
-    padding: 1rem;
-    /* background-color: #d1aa91; */
+    padding: 4rem;
     background: linear-gradient(to bottom,  #d1aa91, #8ea9b0);
     z-index: -1;
-
 }
 
-section{
+/* SEÇÃO PRINCIPAL */
+main .main-content article{
     box-shadow: 0px 0px 5px black;
     min-height: 15rem;
     height: auto;
     padding: 1rem;
-    margin: 3rem;
-    /* overflow: auto; */
+    border-radius: 10px;
+    margin: 0 0 3rem 0;
+
 }
 
-section:nth-child(odd){
+main .main-content article:nth-child(odd){
     background-color: rgb(225, 225, 225);
+    /* margin: 0 3rem 3rem 0; */
 }
 
-section:nth-child(even) {
+main .main-content article:nth-child(even){
     background-color: rgb(180, 180, 180);
+}
 
-  }
 
-
-@media screen and (min-width: 768px) {
-    main {
+@media screen and (min-width: 768px){
+    main .main-content{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between
-      }
+    }
       
-      main section {
-        margin: 2.5rem;
-        flex: 0 0 calc(50% - 5rem);
+    main .main-content article{
+        margin: 0rem;
+        flex: 0 0 calc(50% - 2.5rem);
         background-color: lightgray;
-      }
+    }
+    main .main-content article:nth-child(even){
+        /* background-color: rgb(180, 180, 180); */
+        margin: 0 0 3rem 0;
+    }
+    main .main-content article:nth-child(odd){
+        /* background-color: rgb(225, 225, 225); */
+        margin: 0 3rem 3rem 0;
+    }
 
+}
+
+
+
+
+
+
+/* SEÇÃO DE CARDS */
+
+main .cards-section{
+    display: flex;
+    justify-content: center;
+}
+
+main .cards-container{
+    flex: 1;
+    box-shadow: 0px 0px 5px black;
+    min-height: 15rem;
+    height: auto;
+    background-color: rgb(225, 225, 225);
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    max-width: 70rem;
+    justify-content: space-around;
+}
+
+main .cards-container .card{
+    background-color: black;
+    width: 6rem;
+    height: 9rem;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 768px){
+    main .cards-container{
+        flex-direction: column;
+        align-items: start;
+    }
+
+    main .cards-container .card{
+        width: calc(100% - 4rem);
+        max-width: 10rem;
+    }
 }
