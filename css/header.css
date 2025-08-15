@@ -28,6 +28,7 @@ header .banner h1, .banner h6{
 
 header .banner-background {
     height: 20vh;
+    min-height: 10rem;
     background: linear-gradient(to right, #a18370 50%, #5c6f74   50%);
     color: rgba(255, 255, 255, 0.75);
     display: flex;
@@ -133,15 +134,39 @@ header .hamburger {
 
     header .mobile-menu {
         color: rgba(255, 255, 255, 0.7);
-        display: flex;
+        display: none;
         flex-direction: column;
-        position: absolute;
         top: 0;
         right: 0;
         background-color: #000000da;
         width: 18rem;
         padding: 1.5rem;
         padding-top: 4rem;
+        position: fixed;
+        overflow-y: auto;  /* permite rolar internamente se precisar */
+        max-height: 100vh;
+
+        scrollbar-width: thin;
+        scrollbar-color: rgba(255, 255, 255, 0.5) transparent;
+    }
+
+    header .mobile-menu::-webkit-scrollbar {
+        width: 6px;
+    }
+    header .mobile-menu::-webkit-scrollbar-track {
+        background: transparent;
+    }
+    header .mobile-menu::-webkit-scrollbar-thumb {
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 3px;
+        border: 1px solid transparent;
+    }
+
+
+
+
+    header .mobile-menu.active {
+        display: block;
     }
 
     header .mobile-menu ul {
@@ -154,7 +179,6 @@ header .hamburger {
     }
 
     header .mobile-menu li {
-        /* margin-bottom: 0.75rem; */
         display: flex;
         flex-grow: 1;
         flex: 1;
