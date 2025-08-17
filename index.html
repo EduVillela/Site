@@ -4,189 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eduardo Villela</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/scrollbar.css">
-    <link rel="stylesheet" href="css/footer.css">   
-    <link rel="stylesheet" href="css/text.css">
-
-    <link rel="stylesheet" href="css/main-home.css">
+    <base href="site">  <!-- define a pasta raiz -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/scrollbar.css">
+    <link rel="stylesheet" href="./css/footer.css">   
+    <link rel="stylesheet" href="./css/text.css">
+    <link rel="stylesheet" href="./css/general-main.css">
 </head>
+
 <body>
-
-    <header>
-        <div class="banner-background">
-            <div class="banner">
-                <div>
-                    <h1><a href="index.html">Eduardo Villela M. dos Reis</a></h1>
-                    <h6><a href="index.html">Página Pessoal</a></h6>
-                </div>
-                <ul class="banner-list">
-                    <li>Endereço Profissional</li>
-                    <li>Item 1</li>
-                    <li>Item 2</li>
-                    <li>Item 3</li>
-                    <li>Item 4</li>
-                    <li>Item 5</li>
-                    <li>Item 6</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="nav-container">
-            <nav class="navbar mobile-menu">
-                <ul>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Formação</a></li>
-                    <li><a href="#">Publicações</a></li>
-                    <li><a href="#">Desafios</a></li>
-                    <!-- <li><a href="#">Projetos</a></li> -->
-                    <!-- <li><a href="#">Crônicas</a></li> -->
-                    <!-- <li><a href="#">Música</a></li> -->
-                    <!-- <li><a href="#">Contato</a></li> -->
-                </ul>
-            </nav>
-        </div>
-
-        
-        <div class="hamburger">
-            &#9776; <!-- Símbolo de hambúrguer -->
-        </div>
-        
-    </header>
+    <header id="header-placeholder"></header>
     
-
 
     <main>
-
         <section class="main-content">
-
-            <article class="intro even-section">
-                <h2>Sobre</h2>
-                <ul>
-                   <li>Oi</li>
-                   <li>tudo bem?</li>
-                   <li>Sim!</li>
-
-                </ul>
-
-
-            </article>
-    
-            <article class="projects odd-section">
-                <h2>Projetos</h2>
-                <p></p>
-            </article>
-    
-            <article class="highlight even-section">
-                <h2>Destaques</h2>
-    
-                <div class="card">
-                    <img src="" alt="">
-                    <p>Card 1</p>
-                </div>
-    
-                <div class="card">
-                    <img src="" alt="">
-                    <p>Card 2</p>
-                </div>
-    
-                <div class="card">
-                    <img src="" alt="">
-                    <p>Card 3</p>
-                </div>
-    
-                <div class="card">
-                    <img src="" alt="">
-                    <p>Card 4</p>
-                </div>
-    
-            </article>
-            
-            <article>
-    
-            </article>
-
-            <article>
-
-            </article>
-
-            <article>
-
-            </article>
-
+            <h2>Sobre</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus error laudantium quaerat ducimus rerum dolorum eligendi nulla consectetur ratione tempora, nostrum minus commodi eos doloribus provident ad perspiciatis consequuntur et!</p>
+            <ul>
+                <li>aaa</li>
+                <li>bbb</li>
+                <li>cbb</li>
+            </ul>
         </section>
-
-
-
-
-
-        <section class="cards-section">
-
-            <div class="cards-container">
-                <div class="card">
-                    a
-                </div>
-                <div class="card">
-                    a
-                </div>
-                <div class="card">
-                    a
-                </div>
-                <div class="card">
-                    a
-                </div>
-                <div class="card">
-                    a
-                </div>
-            </div>
-
-        </section>
-
-
-
-
-
     </main>
 
-    <footer>
-        <div class="footer-content">
 
-            <div class="footer-column">
-                <h3>Coluna 1</h3>
-                <ul>
-                    <li><a href="#">Link 1</a></li>
-                    <li><a href="#">Link 2</a></li>
-                    <li><a href="#">Link 3</a></li>
-                </ul>
-            </div>
-            <div class="footer-column">
-                <h3>Coluna 2</h3>
-                <ul>
-                    <li><a href="#">Link 4</a></li>
-                    <li><a href="#">Link 5</a></li>
-                    <li><a href="#">Link 6</a></li>
-                </ul>
-            </div>
-            <div class="footer-column">
-                <h3>Coluna 3</h3>
-                <ul>
-                    <li><a href="#">Link 7</a></li>
-                    <li><a href="#">Link 8</a></li>
-                    <li><a href="#">Link 9</a></li>
-                </ul>
-            </div>
-    
-        </div>
-    
-        <!-- <div class="footer-copyright">
-            <p>&copy; 2025 Criado por ... Todos os direitos reservados.</p>
-        </div> -->
-    </footer>
-
-    <script src="js/menu.js"></script>
-
+    <footer id="footer-placeholder"></footer>
+    <script src="./js/header-loader.js"></script>
+    <script src="./js/footer-loader.js"></script>
+    <script src="./js/menu.js" defer></script>
 </body>
+
 
 
 </html>
