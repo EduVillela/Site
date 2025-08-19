@@ -7,7 +7,7 @@ async function loadHeader() {
                         <img src="assets/images/img-banner.jpeg" alt="Foto do autor">
                     </div>
                     <div class="author-info">
-                        <h1><a href="index.html">Eduardo&nbsp;Villela M.&nbsp;dos&nbsp;Reis</a></h1>
+                        <h1><a href="index.html">Eduardo Villela M.&nbsp;dos&nbsp;Reis</a></h1>
                         <hr>
                         <h6><a href="index.html">Página Pessoal</a></h6>
                     </div>

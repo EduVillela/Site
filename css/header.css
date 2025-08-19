@@ -176,6 +176,23 @@ header .hamburger {
 
 
 @media screen and (max-width: 768px) {
+
+
+    
+    header .banner-content img{
+        /* max-height: 100%; */
+        /* height: auto; */
+        max-width: 14vw;
+        min-width: 5rem;
+    }
+
+    header .author-info{
+        margin-left: 1rem;
+        margin-right: 2rem;
+    }
+
+
+
     header .banner h1 {
         font-size: clamp(1.5rem, calc(8.5vw - 1.5rem), 3.5rem);
     }
@@ -195,7 +212,8 @@ header .hamburger {
         top: 0;
         right: 0;
         background-color: #000000da;
-        width: 18rem;
+        /* width: 18rem; */
+        min-width: 17rem;
         padding: 1.5rem;
         padding-top: 4rem;
         position: fixed;
@@ -263,5 +281,26 @@ header .hamburger {
 
 
 
+@media screen and (max-width: 300px) {
+    header .banner {
+        padding: 0rem 1rem 0 1rem;
+    }
 
+    header .author-info{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    header .mobile-menu {
+        min-width: auto;
+        width: 220px;
+    }
+}
+
+
+@media screen and (max-width: 280px) {
+    header .banner {
+        padding: 0rem 0.5rem 0 0.5rem;
+    }
+}
 

@@ -10,3 +10,20 @@ main .main-content{
     border-radius: 1rem;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
+
+@media screen and (max-width: 400px) {
+    main{
+        padding: 3rem 1rem;
+        /* background: linear-gradient(to bottom,  #d1aa91, #8ea9b0); */
+        /* z-index: -1; */
+    }
+    
+    main .main-content{
+        /* background-color: rgba(255, 255, 255, 0.2); */
+        padding: 1rem 1rem;
+        /* border-radius: 1rem; */
+        /* box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); */
+    }
+
+}
+
