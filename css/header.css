@@ -53,7 +53,7 @@ header .banner-content img{
     min-width: 3rem;
     border-radius: 30px;
     box-shadow: 3px 3px 3px black;
-    /* Transparencia nas bordas: */
+    /* Transparencia nas bordas da imagem: */
     /* mask-image:
     linear-gradient(to right, transparent, black 1em),
     linear-gradient(to bottom, transparent, black 1em),
@@ -176,12 +176,7 @@ header .hamburger {
 
 
 @media screen and (max-width: 768px) {
-
-
-    
     header .banner-content img{
-        /* max-height: 100%; */
-        /* height: auto; */
         max-width: 14vw;
         min-width: 5rem;
     }
@@ -191,14 +186,8 @@ header .hamburger {
         margin-right: 2rem;
     }
 
-
-
     header .banner h1 {
         font-size: clamp(1.5rem, calc(8.5vw - 1.5rem), 3.5rem);
-    }
-
-    header .banner h6 {
-        text-align: left;
     }
 
     header .banner-contact {
@@ -212,7 +201,6 @@ header .hamburger {
         top: 0;
         right: 0;
         background-color: #000000da;
-        /* width: 18rem; */
         min-width: 17rem;
         padding: 1.5rem;
         padding-top: 4rem;
@@ -226,9 +214,11 @@ header .hamburger {
     header .mobile-menu::-webkit-scrollbar {
         width: 6px;
     }
+
     header .mobile-menu::-webkit-scrollbar-track {
         background: transparent;
     }
+
     header .mobile-menu::-webkit-scrollbar-thumb {
         background-color: rgba(255, 255, 255, 0.5);
         border-radius: 3px;
@@ -274,11 +264,7 @@ header .hamburger {
         z-index: 1000;
         justify-content: left;
     }
-
 }
-
-
-
 
 
 @media screen and (max-width: 300px) {
