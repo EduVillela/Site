@@ -40,10 +40,11 @@ footer .footer-column a:hover {
 footer .footer-copyright {
     text-align: center;
     width: 100%;
-    padding: 0.5rem 0;
+    padding: 0.5rem 0.8rem;
     background-color: #111;
     color: #fff;
     font-size: 0.9rem;
+    /* padding: 0.3rem 0.8rem; */
 }
 
 footer .credits{
@@ -63,6 +64,15 @@ footer .credits{
         flex: 1;
         margin: 1rem 1rem;
         text-align: center;
+    }
+
+    footer .footer-copyright {
+        font-size: 0.8rem;
+        padding: 0.8rem 0.8rem;
+    }
+    footer .credits{
+        font-size: 0.6rem;
+        margin-top: 0.3rem;
     }
 
 }

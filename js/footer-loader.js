@@ -11,8 +11,8 @@ async function loadFooter() {
         </div>
       </div>
       <div class="footer-copyright">
-        <p>&copy; 2025 Eduardo Villela. Todos os direitos reservados.</p>
-        <p class="credits">Site desenvolvido por <strong><a href="mailto:sergioherman@id.uff.br">Sergio Herman</a></strong> | Conteúdo por <strong>Eduardo Villela</strong>.</p>
+        <p>&copy;&nbsp;2025&nbsp;Eduardo&nbsp;Villela. Todos&nbsp;os&nbsp;direitos&nbsp;reservados.</p>
+        <p class="credits">Site&nbsp;desenvolvido&nbsp;por <strong><a href="mailto:sergioherman@id.uff.br">Sergio&nbsp;Herman</a></strong>&nbsp;| Conteúdo&nbsp;por&nbsp;<strong>Eduardo&nbsp;Villela</strong>.</p>
       </div>
     `;
     
